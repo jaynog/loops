@@ -28,3 +28,10 @@ on the screen:
 """
 
 # your code here
+
+approximation = 1
+for i in range (1,10001):
+      n= (4* i**2) / ((4* i**2)-1)
+      approximation=approximation*n
+      if i in range (100,10001,100):
+            print(approximation*2)

@@ -13,3 +13,9 @@ Enter the size of the triangle: 4
 """
 
 # your code here
+size = int(input("Enter integer "))
+
+i = 1
+while i<(size+1):
+    print(i*"*")
+    i= i+1

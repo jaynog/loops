@@ -9,3 +9,20 @@ Enter text: Data Science is SUPER!
 """
 
 # your code here
+
+"""
+text = str(input("Enter text "))
+cap = 0
+for letter in text:
+    if letter.isupper():
+        cap = cap + 1
+
+print("Number of capital letters in text is ", cap)
+"""
+
+text = str(input("Enter text "))
+cap = 0
+for letter in text:
+    if ('A' <= letter <='Z'):
+        cap = cap + 1
+print("Number of capital letters in text is ", cap)
